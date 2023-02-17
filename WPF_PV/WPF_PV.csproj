@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\fondojpt.jpg" />
+    <None Remove="images\fondojpt.png" />
+    <None Remove="images\key-icon.png" />
+    <None Remove="images\logo-png-estrella.png" />
+    <None Remove="images\user-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\fondojpt.jpg" />
+    <Resource Include="images\fondojpt.png" />
+    <Resource Include="images\key-icon.png" />
+    <Resource Include="images\logo-png-estrella.png" />
+    <Resource Include="images\user-icon.png" />
+  </ItemGroup>
+
+</Project>
